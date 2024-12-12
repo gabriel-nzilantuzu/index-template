@@ -1,4 +1,4 @@
-name: Build and Push Welcome App Docker Image
+name: Build and Push Welcome Template App Docker Image
 
 on:
   push:
