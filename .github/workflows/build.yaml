@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           file: Dockerfile
-          tags: namespaxe/welcome-app:1.0.0
+          tags: namespaxe/fesam:1.0.0
           push: true
 
       - name: Logout from Docker Hub
