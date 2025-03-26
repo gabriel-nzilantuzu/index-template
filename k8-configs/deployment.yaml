@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: welcome-app
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: welcome-app
@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
         - name: welcome-app-container
-          image: namespaxe/welcome-app:1.0.0
+          image: namespaxe/zahoro:1.0.0
           resources:
             requests:
-              memory: "50Mi"
+              memory: "60Mi"
               cpu: "10m"
             limits:
-              memory: "100Mi"
+              memory: "70Mi"
               cpu: "10m"
